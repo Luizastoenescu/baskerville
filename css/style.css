@@ -13,16 +13,17 @@ body {
     background: #f7f7f7;
     color: #333333;
     font-family: baskerville-urw, serif;
+
 }
 
 section, header, footer {
     width: 80%;
-    max-width: 700px;
+    max-width: 600px;
     margin: auto;
 }
 
 section {
-    margin-bottom: 4rem;
+    margin-bottom: 0.5rem;
 }
 
 p, blockquote {
@@ -42,7 +43,9 @@ h1 {
 
 h2 {
     font-size: 1.999rem;
-    margin: 1rem 0 3rem 0;
+    margin: 0.5rem 0 1rem 0;
+    margin-top: 1rem;
+    margin-bottom: -1rem;
 }
 
 blockquote {
@@ -105,6 +108,52 @@ nav a:hover {
     border-bottom: none;
     color: rgb(255, 217, 255);
     transition: all 0.3s ease-in-out;
+}
+
+
+/*-- Styling table --*/
+
+table {
+    margin: auto;
+    display: table;
+    border-collapse: collapse;
+    border-spacing: 2px;
+    margin-bottom: 2rem;
+    width: 100%;
+
+}
+
+caption {
+    margin: 1.5em 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+th{
+    text-transform: uppercase;
+    font-weight: normal;
+    text-align: left;
+    color: #f7f7f7;
+    background: rgb(55, 22, 87);
+    border: 2px solid #f7f7f7;
+}
+
+th, td{
+    padding: 0.3em;
+}
+
+table, td {
+    background: rgb(255, 217, 255);
+    border: 2px solid #f7f7f7;
+}
+
+/*-- Images --*/
+
+img {
+    display: block;
+    margin: 2rem 0 4em 0;
+    padding: 0;
+    max-width: 100%;
 }
 
 /*-- Dtyling the footer --*/
