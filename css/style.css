@@ -16,7 +16,7 @@ body {
 
 }
 
-section, header, footer {
+section, header {
     width: 80%;
     max-width: 600px;
     margin: auto;
@@ -175,8 +175,47 @@ hr {
 /*-- Dtyling the footer --*/
 
 footer {
+    background: rgb(55, 22, 87);
     text-align: center;
-    font-size: 0.8rem;
-    padding-bottom: 4rem;
-
-}
+    font-size: 0.75rem;
+    color: #f7f7f7;
+    padding: 3em 0 2.5em 0
+    }
+    
+    footer p {
+        width: 60%;
+    margin: auto;
+    }
+    
+    .connections{
+    position: relative;
+    margin: 0 auto;
+    }
+    .connections ul{
+    margin: 0;
+    padding: 0;
+    }
+    .connections li{
+    margin: 0 10px;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+    }
+    .connections a:link{
+    border-bottom: none;
+    }
+    .connections img,
+    .connections svg{
+    border: none;
+    }
+    .connections a:hover img,
+    .connections a:hover svg{
+    border-bottom: none;}
+    .connections svg {
+    margin: 1em auto;}
+    .connections a:hover svg path {
+    fill: rgb(255, 217, 255);
+    transition: all 0.2s ease-in-out;}
+    footer .connections a:hover svg path {
+    fill: rgb(255, 217, 255);
+    transition: all 0.2s ease-in-out;}
