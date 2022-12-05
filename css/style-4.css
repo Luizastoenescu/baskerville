@@ -16,11 +16,15 @@ body {
 
 }
 
+
+
+
 section, header {
     width: 80%;
     max-width: 600px;
     margin: auto;
 }
+
 
 section {
     margin-bottom: 0.5rem;
@@ -47,6 +51,7 @@ h2 {
     margin-top: 1rem;
     margin-bottom: -1rem;
 }
+
 
 blockquote {
     font-style: italic;
@@ -110,6 +115,10 @@ nav a:hover {
     transition: all 0.3s ease-in-out;
 }
 
+
+
+/*-- image grids --*/
+
 .gridimage {
     display: grid;
     column-gap: 10px;
@@ -117,10 +126,15 @@ nav a:hover {
 }
 
 
+
+
+
 .leader {
     text-transform: uppercase;
     color: rgb(55, 22, 87);
 }
+
+
 
 /*-- Styling table --*/
 
@@ -157,6 +171,9 @@ table, td {
     background: rgb(255, 217, 255);
     border: 2px solid #f7f7f7;
 }
+
+
+
 
 /*-- Images --*/
 
